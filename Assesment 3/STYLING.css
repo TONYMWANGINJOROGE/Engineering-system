@@ -1,0 +1,207 @@
+.big{background-image: url("index.jpeg");
+    background-position: right;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.bwx{text-align: left;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar li{
+    display: inline-block;
+
+
+}
+
+.navbar li a{
+
+    text-decoration: none;
+     color: black;
+}
+.A{
+    font-size: 30px;
+}
+.B{
+
+    font-size: 20px;
+    color: blue;
+}
+ button{
+    background-color: blue
+
+}
+ button a {
+     color: white;
+ }
+ .www{
+     text-align: center;
+     text-decoration: underline blue 2px;
+ }
+ .px{
+     text-align: center;
+
+
+ }
+.cn a{
+
+    text-decoration: none;
+}
+.y{
+    text-align: justify;
+
+
+}
+.margin{
+    align-content: center;
+    text-align: center;
+
+}
+
+.ttt{
+    position: absolute;
+    top: 25px;
+}
+
+.rut .bon .y{
+    margin-left: 2000px;
+
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: "Fira Code Light";
+    background-color: grey;
+
+}
+
+nav .navbar{
+   width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav .navbar .logo a{
+   font-weight: 500;
+    font-size: 35px;
+    color: orange;
+
+
+}
+nav.navbar.menu{
+    display: flex;
+    position: relative;
+
+}
+
+nav.navbar.menu li{
+ list-style: none;
+    margin: 0 8px;
+
+}
+
+.navbar .menu a{
+ font-size: 18px;
+    font-weight: 500;
+    color: darksalmon;
+    padding: 6px;
+    transition: all 0.4s ease;
+
+
+}
+
+.home{
+  height: 100vh;
+    width: 100%;
+    background-image: url("index.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Gubbi;
+
+
+}
+
+.home .home-content{
+ width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.home .text-one{
+ font-size: 30px;
+    color: chartreuse;
+}
+
+.home .text-two{
+    font-size: 60px;
+    color: black;
+}
+.home .text-three{
+  font-size: 45px;
+    color: blue;
+}
+.home .text-four{
+    font-family: "Fira Code Medium";
+
+}
+ .home .home-content .button a button{
+    width: 20%;
+     font-size: 25px;
+font-weight: 400;
+     background-color: peru;
+     cursor: pointer;
+     border: 2px solid transparent;
+     transition: all 0.4s ease;
+
+}
+
+ .home .home-content .button a button:hover{
+     border-color: blanchedalmond;
+     background-color: crimson;
+     color: blue;
+ }
+
+
+ .services .boxes .box{
+  margin: 20px 0;
+     width: calc(100% / 3 - 20px);
+     text-align: center;
+     border-radius: 12px;
+     padding: 30px 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,16);
+
+ }
+
+ .services .boxes .box .icon{
+ height: 50px;
+     width: 50px;
+     background: #4070f4;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 50px;
+     font-size: 18px;
+     color: #fff;
+     margin: 0 auto 10px auto;
+     transition: all 0.4s ease;
+
+ }
