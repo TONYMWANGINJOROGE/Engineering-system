@@ -1,0 +1,33 @@
+h1{background-color: aqua;
+    color: white;
+    text-align: center;
+}
+
+a{ background-color: ghostwhite;
+
+
+}
+form{background-color: crimson;
+    color: blue;
+    padding:10px;
+    font-size: 20px;
+    font-family: FreeMono;
+    border-radius: 20px;
+
+
+}
+
+table{background-color: aqua;
+    color: brown;
+    mso-cellspacing: 10px ;
+    padding: 20px;
+
+
+
+}
+
+ol,li,ul{color: orange;
+    font-size: 15px;
+    font-family: KacstScreen;
+
+}
