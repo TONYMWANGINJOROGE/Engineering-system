@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employees form</title>
+    <h1 style="color: green;font-size: 30px;font-family: FreeMono;text-align: center;margin-left: 250px">This is my Employee form</h1>
+    <form  style="text-align: center; color: blue;font-family: FreeSerif;border: solid;width:30%;margin-left: 600px;background-color: #0a53be ;color: #2c0b0e;border-radius: 50px" action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <a href="{%url 'employee_list'%}"> <button style="color: #0dcaf0;border-radius: 30px">Back to list</button></a>
+        <button  style="border-radius: 30px;color: red" type="submit" name="save">SUBMIT</button>
+    </form>
+</head>
+<body>
+
+</body>
+</html>

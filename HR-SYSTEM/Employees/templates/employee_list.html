@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee list</title>
+<h2>This is the record stored or saved about employee list</h2>
+
+</head>
+<body>
+
+<table border="2" bgcolor="#f5f5dc">
+    <thead>
+    <tr>
+
+        <td>Full Name</td>
+        <td>Mobile no</td>
+        <td>Position</td>
+        <td></td>
+
+    </tr>
+    </thead>
+    <tbody>
+    {% for employee in employees_list %}
+        <tr>
+            <td>{{employee.full_name }}</td>
+            <td>{{employee.MobileNumber }}</td>
+            <td>{{employee.position }}</td>
+            <td>
+                <a href="{% url 'employee_update' employee.id %}"> <button style="color: #0dcaf0">UPDATE</button></a>
+                <a href="{% url 'employee_delete' employee.id %}"> <button style="color: red">DELETE</button></a>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+
+
+</table>
+ <a  style="color: #0a3622" href="{%url 'employee_form'%}"> <button >back to form</button></a>
+</body>
+</html>
